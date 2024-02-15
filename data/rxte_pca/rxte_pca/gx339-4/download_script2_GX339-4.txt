@@ -1,0 +1,13 @@
+# The following commands will download selected data products.
+#
+# Note: The network utility wget is included with most
+# systems.  To download wget or get more information visit the
+# GNU website http://www.gnu.org/software/wget/wget.html
+#
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://heasarc.gsfc.nasa.gov/FTP/xte/data/archive/AO14//P95409/95409-01/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://heasarc.gsfc.nasa.gov/FTP/xte/data/archive/AO14//P95409/95409-01-30-00A/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://heasarc.gsfc.nasa.gov/FTP/xte/data/archive/AO14//P95409/95409-01-30-00/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://heasarc.gsfc.nasa.gov/FTP/xte/data/archive/AO14//P95409/95409-01-30-00Z/
+
+# Total size of data product files local to the HEASARC system: 38 MB
+# File sizes of remote data products are not available
